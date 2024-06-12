@@ -1,0 +1,57 @@
+#cabecera{
+    background-color: bisque;
+       
+}
+#lista{
+    display: flex;
+    flex-direction: row;
+}
+#lista a{
+    padding: 10px;
+    text-decoration: none;
+    color:brown;
+    text-transform: uppercase;
+    margin-left: 40px;
+}
+#lista a:hover{
+    background-color: red;
+    color: black;
+    cursor: pointer;
+}
+#tarifas{
+    text-align: center;
+    font-size: large;
+    color: black;
+    
+    
+    
+}
+p{
+    text-align: center;
+    font-size: large;
+    color: black;  
+}
+#p2{
+    background-color:rgba(255, 255, 0, 0.288)
+}
+.celdas{
+    background-color: beige;
+    border-collapse: collapse;
+    
+    
+}
+.celdas td{
+    border: 1px solid black; /* Borde de las celdas */
+    padding: 5px; /* Espaciado interno de las celdas */
+    
+}
+.ciudadprincipal{
+    background-color: brown;
+}
+#cuerpo{
+    border: 5px solid red;
+    
+}
+#buscador{
+    background-color: beige;
+}
